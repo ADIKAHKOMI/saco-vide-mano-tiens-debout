@@ -1,0 +1,12 @@
+h1 {
+
+    color: rgb(249, 77, 8);
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid #1bc863;
+    padding: 10px;
+    border-radius: 10pxpx;
+    background-color: #281fd3;
+
+}
