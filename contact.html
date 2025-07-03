@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tente/agendica.css">
+        <title>Formulaire de contact</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Bitcount+Grid+Double:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title title-1"> Contactez-nous</h1>
+            <form class="form">
+                <div class="form_group">
+                     <input type="text" class="form_input" id="nom" placeholder="Votre nom" required>
+                    <label for="nom" class=form_label> Votre nom</label>                   
+                </div>
+                <div class="form_group">
+                     <input type="text" class="form_input" id="prenom" placeholder="Votre prénom" required>
+                    <label for="nom" class=form_label> Votre prénom</label>                   
+                </div>
+                <div class="form_group">
+                     <input type="email" class="form_input" id="email" placeholder="Votre Email" required>
+                     <label for="email" class=form_label> Votre Email</label>
+                </div>
+                <div class="form_group">
+                     <input type="number" class="form_input" id="age" placeholder="Votre Age" required>
+                    <label for="age" class=form_label> Votre Age</label> 
+                    </div>
+
+
+
+                    <div class="form_message">
+                    <label for="message" class=form_message-label>Message (facultatif): </label>
+                    <textarea name="" id="message" cols="50" rows="10" class="form_input message_input"></textarea> 
+                    </div>
+
+
+                    <div class="submit">
+                  <button class="submitBtn">Envoyer &rarr;</button> 
+            </form>
+        </div>
+    </body>
+</html>
